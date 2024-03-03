@@ -7,4 +7,4 @@ Build a sleek Flutter app with API integration for a clean user experience.
 Create a Flutter app fetching and displaying data from a chosen API.
 
 ## Deadline:
-9:59 am, 3-3-2024
+9:59 am, 4-Mar-2024
