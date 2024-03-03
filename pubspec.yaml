@@ -1,0 +1,42 @@
+name: amc_applicaition
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_svg: ^1.1.6
+  glass: ^2.0.0+1
+  glassmorphism_ui: ^0.3.0
+  get_it: ^7.6.7
+  shared_preferences: ^2.2.2
+  iconify_flutter: ^0.0.5
+  http: ^1.2.0
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+  http: ^1.1.0
+
+
+  fluentui_system_icons: ^1.1.229
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/amcapp.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
