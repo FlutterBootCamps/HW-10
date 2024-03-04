@@ -51,22 +51,25 @@ class _HomePageState extends State<HomePage> {
                         setState(() {});
                       }
                     } on FormatException catch (error) {
-                      showDialog(
-                        context: context,
-                        builder: (context) {
-                          return Dialog(
-                            backgroundColor: Colors.black,
-                            child: Text(error.message),
+                      return AlertDialog(
+                            backgroundColor: const Color.fromARGB(159, 0, 0, 0),
+                            content: Text(
+                              error.message,
+                              style: const TextStyle(
+                                  fontSize: 20, color: Colors.white),
+                            ),
                           );
-                        },
-                      );
                     } catch (error) {
                       showDialog(
                         context: context,
                         builder: (context) {
-                          return Dialog(
-                            backgroundColor: Colors.black,
-                            child: Text(error.toString()),
+                          return AlertDialog(
+                            backgroundColor: const Color.fromARGB(159, 0, 0, 0),
+                            content: Text(
+                              error.toString(),
+                              style: const TextStyle(
+                                  fontSize: 20, color: Colors.white),
+                            ),
                           );
                         },
                       );
