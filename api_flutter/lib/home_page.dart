@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
 
                     setState(() {});
                   },
-                  child: const Text("start image generating")),
+                  child: const Text("Show Cat images")),
             ],
           ),
         ),
